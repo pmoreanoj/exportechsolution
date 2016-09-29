@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+html, body{
+	background: #fff;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	height: 100%;
+}
+.A4{
+	margin: 0 auto;
+	width: 595px;
+}
+.A4 .stock_pic{
+	border: none;
+	max-height: 75px;
+	max-width: 75px;
+	vertical-align: middle;
+}

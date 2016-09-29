@@ -1,0 +1,155 @@
+@CHARSET "UTF-8";
+.scContainer{
+	margin-top: 10px;
+}
+.dropdown-menu{
+	margin-top: 0px !important;
+}
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+.dropdown:hover > .dropdown-menu {
+	display: block;
+}
+.form-group.required label.control-label:after{
+	content:" *";
+	color: red;
+}
+.form-group.required label.error{
+	color: red;
+	font-weight: normal;
+	padding-left: 0px !important;
+}
+.scSelectorAddresses .scAddressHolder{
+	border-bottom: 2px solid #ddd;
+	padding-bottom: 10px;
+	margin-bottom: 14px;
+}
+.scSelectorAddresses .scAddressHolder:last-child{
+	border-bottom: none;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.modal-backdrop.fade {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.modal-backdrop.fade.in {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+/* ==========================================================================
+    #pjScEmptyCategoryMessage
+========================================================================== */
+#pjWrapper .pjScEmptyCategoryMessage { padding: 0 15px; }
+#pjWrapper .pjScProduct .pjScProductImage { margin: 0 auto; }
+
+#pjWrapper .scMaximumItems{ 
+    display: none;
+    color: red;
+}
+
+[id^="pjWrapper"] .col-lg-1, [id^="pjWrapper"] .col-lg-10, [id^="pjWrapper"] .col-lg-11, [id^="pjWrapper"] .col-lg-12, [id^="pjWrapper"] .col-lg-2, [id^="pjWrapper"] .col-lg-3, [id^="pjWrapper"] .col-lg-4, [id^="pjWrapper"] .col-lg-5, [id^="pjWrapper"] .col-lg-6, [id^="pjWrapper"] .col-lg-7, [id^="pjWrapper"] .col-lg-8, [id^="pjWrapper"] .col-lg-9, [id^="pjWrapper"] .col-md-1, [id^="pjWrapper"] .col-md-10, [id^="pjWrapper"] .col-md-11, [id^="pjWrapper"] .col-md-12, [id^="pjWrapper"] .col-md-2, [id^="pjWrapper"] .col-md-3, [id^="pjWrapper"] .col-md-4, [id^="pjWrapper"] .col-md-5, [id^="pjWrapper"] .col-md-6, [id^="pjWrapper"] .col-md-7, [id^="pjWrapper"] .col-md-8, [id^="pjWrapper"] .col-md-9, [id^="pjWrapper"] .col-sm-1, [id^="pjWrapper"] .col-sm-10, [id^="pjWrapper"] .col-sm-11, [id^="pjWrapper"] .col-sm-12, [id^="pjWrapper"] .col-sm-2, [id^="pjWrapper"] .col-sm-3, [id^="pjWrapper"] .col-sm-4, [id^="pjWrapper"] .col-sm-5, [id^="pjWrapper"] .col-sm-6, [id^="pjWrapper"] .col-sm-7, [id^="pjWrapper"] .col-sm-8, [id^="pjWrapper"] .col-sm-9, [id^="pjWrapper"] .col-xs-1, [id^="pjWrapper"] .col-xs-10, [id^="pjWrapper"] .col-xs-11, [id^="pjWrapper"] .col-xs-12, [id^="pjWrapper"] .col-xs-2, [id^="pjWrapper"] .col-xs-3, [id^="pjWrapper"] .col-xs-4, [id^="pjWrapper"] .col-xs-5, [id^="pjWrapper"] .col-xs-6, [id^="pjWrapper"] .col-xs-7, [id^="pjWrapper"] .col-xs-8, [id^="pjWrapper"] .col-xs-9{
+	position: inherit !important;;
+}
+#pjWrapper .scSelectorProductForm label.error{color: red; font-weight: normal;}
+
+.pjScEyeIcon:hover{cursor: pointer;}
+@media only screen and ( max-width: 520px ) {
+    /* ==========================================================================
+        #Product
+    ========================================================================== */
+    #pjWrapper .pjScProduct .pjScBtnPrimary { margin-bottom: 5px; }
+}
+
+/*
+Begin Modification
+
+
+
+.menu, .menu ul {
+    min-height: 0;
+}
+.menu, .menu ul {
+    list-style-type: none;
+}
+
+.menu a{
+    height: 45px;
+    margin: 0;
+    padding: 0 .9em;
+    border-left: 1px solid #585858;
+    color: #fff;
+    text-shadow: 0 -1px 0 #000;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 45px;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu li{
+    display: inline-block;
+}
+.menu a:active, .menu a:focus, .menu a:hover {
+    outline: 0;
+    background-color: #444;
+    color: #fff;
+    text-decoration: none;
+}
+*/
+.menu {
+    clear: both;
+    background-color: #585858;
+}
+
+#header img {
+    display: block;
+    margin: auto;
+}

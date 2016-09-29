@@ -1,0 +1,13 @@
+.menu, .menu ul {
+    min-height: 0;
+}
+.menu, .menu ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menu {
+    clear: both;
+    background-color: #585858;
+}
